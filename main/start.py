@@ -10,30 +10,26 @@ from pymongo.errors import PyMongoError
 
 
 START_TEXT = """
-Hᴇʟʟᴏ Mᴀᴡа❤️! I ᴀᴍ ᴛʜᴇ Aᴅᴠᴀɴᴄᴇᴅ Rᴇɴᴀᴍᴇ 𝟸𝟺 Bᴏᴛ [MᴇᴛᴀMᴏʀᴘʜᴇʀ]⚡
+𝙷𝚎𝚕𝚕𝚘 𝚝𝚑𝚎𝚛𝚎! 𝙸'𝚖 𝚊 𝚊𝚍𝚟𝚊𝚗𝚌𝚎 𝚋𝚘𝚝 𝚠𝚒𝚝𝚑 𝚖𝚊𝚗𝚢 𝚏𝚎𝚊𝚝𝚞𝚛𝚎𝚜!
 
-Mᴀᴅᴇ ʙʏ <b><a href=https://t.me/Sunrises24botupdates>SUNRISES ™💥</a></b> ᴀɴᴅ <b><a href=https://t.me/Sunrises_24>Sᴜɴʀɪꜱᴇꜱ Hᴀʀꜱʜᴀ 𝟸𝟺❤️</a></b>.
+ 𝑨 𝒃𝒐𝒕 𝒖𝒏𝒅𝒆𝒓  <a href='https://t.me/The_TGguy'>𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑮𝒖𝒚!!</a>
 
-Fᴇᴀᴛᴜʀᴇs:
-
-- Rᴇɴᴀᴍᴇ Fɪʟᴇs
+<u>Fᴇᴀᴛᴜʀᴇs</u>:
+<blockquote expandable>- Rᴇɴᴀᴍᴇ Fɪʟᴇs
 - Mᴀɴᴀɢᴇ Mᴇᴛᴀᴅᴀᴛᴀ
 - Gᴇɴᴇʀᴀᴛᴇ Sᴀᴍᴘʟᴇs
 - Mᴇʀɢᴇ Vɪᴅᴇᴏs
 - Uᴘʟᴏᴀᴅ ᴛᴏ Gᴏғɪʟᴇ
-- Sᴄʀᴇᴇɴsʜᴏᴛs & Uɴᴢɪᴘ
+- Sᴄʀᴇᴇɴsʜᴏᴛs &amp; Uɴᴢɪᴘ
 - Aᴛᴛᴀᴄʜ Pʜᴏᴛᴏs
 - Mɪʀʀᴏʀ ᴛᴏ Gᴏᴏɢʟᴇ Dʀɪᴠᴇ
 - Cʟᴏɴᴇ Gᴏᴏɢʟᴇ Dʀɪᴠᴇ Lɪɴᴋs
 - Lɪsᴛ Fɪʟᴇs ɪɴ Gᴏᴏɢʟᴇ Dʀɪᴠᴇ
 - Cʟᴇᴀɴ Fɪʟᴇs ɪɴ Gᴏᴏɢʟᴇ Dʀɪᴠᴇ
 - Exᴛʀᴀᴄᴛ Aᴜᴅɪᴏs, Sᴜʙᴛɪᴛʟᴇs, Vɪᴅᴇᴏs
-- Lᴇᴇᴄʜ: Wᴏʀᴋᴇʀs & Sᴇᴇᴅʀ Lɪɴᴋs
-- Uᴘʟᴏᴀᴅ Lᴀʀɢᴇ Fɪʟᴇs (𝟺GB+) ᴛᴏ Gᴏᴏɢʟᴇ Dʀɪᴠᴇ
-
-Exᴘʟᴏʀᴇ sɪᴍᴘʟɪᴄɪᴛʏ! 💥
-
-#SUNRISES24BOTS #SIMPLERENAME24BOT
+- Lᴇᴇᴄʜ: Wᴏʀᴋᴇʀs &amp; Sᴇᴇᴅʀ Lɪɴᴋs
+- Uᴘʟᴏᴀᴅ Lᴀʀɢᴇ Fɪʟᴇs (𝟺GB+) ᴛᴏ Gᴏᴏɢʟᴇ Dʀɪᴠᴇ</blockquote>
+I ᴅᴏɴ'ᴛ ᴡᴏʀᴋ ғᴏʀ ʏᴏᴜ!! Tʀʏ ᴛᴏ ᴜsᴇ ᴍᴇ ᴀɴᴅ ɢᴇᴛ ʙᴀɴɴᴇᴅ ᴘᴇʀᴍᴀɴᴇɴᴛʟʏ
 """
 
 #ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
@@ -111,11 +107,10 @@ async def start(bot, msg: Message):
             photo=SUNRISES_PIC,
             caption=start_text,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("Developer ❤️", url="https://t.me/Sunrises_24"),
-                 InlineKeyboardButton("Updates 📢", url="https://t.me/Sunrises24botupdates")],
+                [InlineKeyboardButton("Updates 📢", url="https://t.me/The_TGguy")],
                 [InlineKeyboardButton("Help 🌟", callback_data="help"),
                  InlineKeyboardButton("About 🧑🏻‍💻", callback_data="about")],
-                [InlineKeyboardButton("Support ❤️‍🔥", url="https://t.me/Sunrises24botSupport")]
+                [InlineKeyboardButton("Support ❤️‍🔥", url="https://t.me/TG_Guy_Support")]
             ]),
             reply_to_message_id=getattr(msg, "message_id", None)
         )
@@ -126,7 +121,7 @@ async def start(bot, msg: Message):
 
     # Notify log channel
     log_message = (
-        f"💬 **Bot Started**\n"
+        f"💬 **Private Started**\n"
         f"🆔 **ID**: {user_id}\n"
         f"👤 **Username**: {username}"
     )
@@ -170,7 +165,7 @@ async def handle_private_message(bot, msg: Message):
 @Client.on_callback_query(filters.regex("help"))
 async def help(bot, msg):
     txt =  "Fᴏʀ ᴀssɪsᴛᴀɴᴄᴇ, ᴄʟɪᴄᴋ ᴛʜᴇ 'Hᴇʟᴘ' ʙᴜᴛᴛᴏɴ ᴏʀ ᴛʏᴘᴇ ᴛʜᴇ `/help` ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴅᴇᴛᴀɪʟᴇᴅ ɪɴsᴛʀᴜᴄᴛɪᴏɴs ᴀɴᴅ sᴜᴘᴘᴏʀᴛ.\n\n"
-    txt += "Jᴏɪɴ : @Sunrises24BotUpdates"
+    txt += "Jᴏɪɴ : @The_TGguy"
     button= [[        
         InlineKeyboardButton("Cʟᴏꜱᴇ ❌", callback_data="del")   
     ]] 
@@ -181,9 +176,7 @@ async def help(bot, msg):
 @Client.on_callback_query(filters.regex("about"))
 async def about(bot, msg):
     me=await bot.get_me()
-    Dᴇᴠᴇʟᴏᴘᴇʀ ="<a href=https://t.me/Sunrises_24>SUNRISES™🧑🏻‍💻</a>"     
-    txt="<b>Uᴘᴅᴀᴛᴇs 📢: <a href=https://t.me/Sunrises24botupdates>SUNRISES™</a></b>"
-    txt="<b>Sᴜᴘᴘᴏʀᴛ ✨: <a href=https://t.me/Sunrises24botSupport>SUNRISES⚡™</a></b>"
+    Dᴇᴠᴇʟᴏᴘᴇʀ ="<a href=https://t.me/THe_TGguy>𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑮𝒖𝒚!!</a>"     
     txt="<b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs 📊 : ᴠ2.4 [Sᴛᴀʙʟᴇ]</b>" 
     button= [[        
         InlineKeyboardButton("Cʟᴏꜱᴇ ❌", callback_data="del")       
